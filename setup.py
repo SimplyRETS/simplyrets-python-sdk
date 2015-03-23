@@ -9,6 +9,8 @@ setup_params = dict(
         author='Christopher Reichert',
         author_email='christopher@simplyrets.com',
         url='https://simplyrets.com',
+        download_url='https://github.com/simplyrets/simplyrets-python-sdk/tarball/0.1',
+        keywords=['simplyrets', 'rets api']
         packages=setuptools.find_packages(),
     )
 

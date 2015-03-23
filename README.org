@@ -24,8 +24,7 @@ applications and websites with Real Estate data.
    Here's a quick example to set up the client and make a request:
 
    #+BEGIN_SRC python
-     import simplyrets
-     import PropertiesApi
+     from simplyrets import simplyrets, PropertiesApi
 
      api_client = simplyrets.Connection('simplyrets', 'simplyrets')
      properties_api = PropertiesApi.PropertiesApi(api_client)
@@ -57,7 +56,7 @@ applications and websites with Real Estate data.
 
    Request all listings with no filters:
    #+BEGIN_SRC python
-     import PropertiesApi
+     from simplyrets import PropertiesApi
 
      # Pass the API Client to the PropertiesAPI
      properties_api = PropertiesApi.PropertiesApi(api_client)
@@ -72,7 +71,7 @@ applications and websites with Real Estate data.
    Request a single listing by id:
    #+BEGIN_SRC python
      prop = properties_api.property(47638943)
-     print properties.address.full
+     print prop.address.full
    #+END_SRC
 
 

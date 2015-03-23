@@ -5,12 +5,13 @@ import setuptools
 setup_params = dict(
         name='simplyrets',
         version="0.1",
-        description='SimplyRETS API for Python',
+        url='https://simplyrets.com',
+        license='MIT',
         author='Christopher Reichert',
         author_email='christopher@simplyrets.com',
-        url='https://simplyrets.com',
-        download_url='https://github.com/simplyrets/simplyrets-python-sdk/tarball/0.1',
-        keywords=['simplyrets', 'rets api']
+        description='SimplyRETS Listings API for Python',
+        download_url='https://github.com/SimplyRETS/simplyrets-python-sdk/archive/v0.1.tar.gz',
+        keywords=['simplyrets', 'rets api'],
         packages=setuptools.find_packages(),
     )
 

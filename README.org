@@ -71,7 +71,7 @@ applications and websites with Real Estate data.
 
    Request a single listing by id:
    #+BEGIN_SRC python
-     prop = properties_api.property(19548526)
+     prop = properties_api.property(47638943)
      print properties.address.full
    #+END_SRC
 
@@ -82,7 +82,7 @@ applications and websites with Real Estate data.
      props = properties_api.properties(
                minbeds=3
                features=["Granite"]
-               neighborhoods=["Heights", "Yupon Estates"]
+               brokers=["SR1234", "ACME12"]
              )
 
      for prop in props:
